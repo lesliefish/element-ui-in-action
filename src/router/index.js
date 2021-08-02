@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainPage from '@/components/MainPage'
+import Icon from '@/components/Basic/Icon'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
           path: 'Container',
           name: 'Container',
           component: Home2
+        },
+        {
+          path: 'Icon',
+          name: 'Icon',
+          component: Icon
         }
       ]
     }
