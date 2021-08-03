@@ -78,10 +78,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .el-header {
-  background-color: #3eaf7c;
+  background-color: #96d5f1;
   color: #333;
   text-align: center;
   line-height: 60px;
+  font-size: 14px;
 }
 
 .el-footer {
