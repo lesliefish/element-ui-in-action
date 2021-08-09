@@ -13,6 +13,7 @@
           <el-menu-item @click="toPage('Typography')" index="1-4">Typography 字体</el-menu-item>
           <el-menu-item @click="toPage('Border')" index="1-5">Border 边框</el-menu-item>
           <el-menu-item @click="toPage('Icon')" index="1-6">Icon 图标</el-menu-item>
+          <el-menu-item @click="toPage('Switch')" index="1-9">Switch 图标</el-menu-item>
           <el-menu-item @click="toPage('Button')" index="1-7">Button 按钮</el-menu-item>
           <el-menu-item @click="toPage('Link')" index="1-8">Link 文字链接</el-menu-item>
         </el-menu-item-group>

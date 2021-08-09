@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import MainPage from '@/components/MainPage'
 import Icon from '@/components/Basic/Icon'
 import Button from '@/components/Basic/Button'
+import Switch from '@/components/Basic/Switch'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
           path: 'Button',
           name: 'Button',
           component: Button
+        },
+        {
+          path: 'Switch',
+          name: 'Switch',
+          component: Switch
         }
       ]
     }
